@@ -1,0 +1,14 @@
+submenu: Complex
+title: "Z Fight"
+code: |
+  // Explore the artifacts
+  // of your GPU!
+  // Go Z-fighting, go!
+  scale 5
+  noStroke
+  rotate
+  fill red
+  box
+  rotate 0.000001
+  fill yellow
+  box

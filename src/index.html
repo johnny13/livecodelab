@@ -2,12 +2,15 @@
 <html>
 
     <head>
-        <title>Livecodelab 2.0</title>
+        <title>Livecodelab 2.5</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/82/three.min.js"></script>
-        <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.2/codemirror.min.js"></script>
+        <!-- next codemirror addon to: change color of selected text and give a background color to text -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.2/addon/selection/mark-selection.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     </head>
     <body>
@@ -16,7 +19,7 @@
         <div class="menubar">
           <ul class="sf-menu" id="nav">
               <li id='logo'>
-                  <span>LiveCodeLab 2.0</span>
+                  <span>LiveCodeLab 2.5</span>
               </li>
 
               <li id='demos' class='current sf-parent'>
@@ -88,6 +91,7 @@
             </p>
             <p>Want more info? See the <a href="http://www.livecodelab.net/"  target="_blank">intro</a> or the <a href="https://github.com/davidedc/livecodelab/tree/master/docs"  target="_blank">docs</a></p>
             <p>Want to hack this? <a href="https://github.com/davidedc/livecodelab"  target="_blank"> Grab the source code!</a></p>
+            <br>
         </div>
 
         <div id="noWebGLMessage">
@@ -123,5 +127,6 @@
 
         </div>
 
+        <script src="app.js"></script>
     </body>
 </html>

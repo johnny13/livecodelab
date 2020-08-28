@@ -1,0 +1,15 @@
+submenu: Graphics
+title: stroke
+description: The stroke function
+code: |
+  // 'stroke' changes all the
+  // edges:
+
+  rotate 1
+  stroke 255, 255, 255
+  box
+
+  // the three numbers are RGB
+  // but you can also use the color names
+  // or the special color 'angleColor'
+  // next-tutorial:color_names

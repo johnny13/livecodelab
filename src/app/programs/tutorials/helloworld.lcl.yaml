@@ -1,0 +1,13 @@
+---
+submenu: Intro
+title: hello world
+description: Creating a box
+code: |
+  // type 'box' (withouth the ')
+  // in one of these empty lines below:
+
+
+
+  // (you should then see a box facing you)
+  // click below for the next tutorial
+  // next-tutorial:some_notes

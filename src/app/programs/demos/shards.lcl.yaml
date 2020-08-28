@@ -1,0 +1,10 @@
+submenu: Complex
+title: "Shards"
+code: |
+  scale 10
+  fill 0
+  5 times
+  	rotate 0, 1, time / 20
+  	ball
+  	rotate 0, 1, 1
+  	ball -1.01
